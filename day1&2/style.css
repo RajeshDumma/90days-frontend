@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 10px;
+}
+
+header{
+    text-align: center;
+    background-color: gray;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+}
+nav  ul{
+    display: flex;
+    list-style: none;
+    background-color:lightgray ;
+    padding: 5px;
+    margin: 3px;
+    justify-content: center;
+    border-radius: 20px;
+    
+}
+li{
+    margin: 0 25px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+h2{
+    text-align: center;
+    background-color: gray;
+    border-radius: 15px;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+}
+.about{
+    background-color: lightgray;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: serif;
+    display: flex;
+}
+.image{
+    width: 200px;
+    height: 200px;
+    border-radius: 30%;
+}
+.content{
+    padding-top: 30px;
+}
+.interests{
+    font-size: 25px;
+    padding: 5px;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+.para{
+    font-weight: bold;
+}
+.project{
+    display: flex;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+.project{
+    justify-content: center;
+}
+.image1{
+    width: 300px;
+    height: 300px;
+}
+.imageContent{
+    font-size: 25px;
+    padding-top: 5px;
+}
+.contact{
+    background-color: lightgray;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 10px;
+    font-size: 25px;
+
+}
+input{
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    border-radius: 2px;
+}
+button{
+    font-size: 25px;
+}
