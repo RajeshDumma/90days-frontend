@@ -1,0 +1,96 @@
+*{
+    text-align: center;
+}
+
+.header {
+    background-color: gray;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.logo img {
+    width: 150px; 
+    margin-top: 10px;
+    border-radius: 8px;
+    
+}
+
+.headTitle h1, .headTitle h2 {
+    margin: 0;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 15px;
+}
+
+ul li {
+    font-size: 20px;
+    padding-top: 10px;
+    margin-top: 10px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.img-dep{
+    border: 2px solid black;
+    border-radius: 30px;
+    box-shadow: 0 0 10px black;
+}
+.para{
+    font-size: 20px;
+}
+
+.content {
+    padding: 20px;
+    
+
+.main-content {
+    margin-bottom: 20px;
+    border: 2px solid gray;
+    padding: 20px;
+}
+}
+
+.faculty-list {
+    display: flex;
+    margin-top: 10px;
+    background-color: gray;
+    font-size: 20px;
+}
+
+.faculty {
+    margin-bottom: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    padding-top: 30px;
+    margin: 15px;
+    border-radius: 20px;
+    background-color: lightgray;
+}
+.img{
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+}

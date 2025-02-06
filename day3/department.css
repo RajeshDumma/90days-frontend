@@ -1,0 +1,150 @@
+body{
+    background-image: url(./event-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.logo {
+    width: 150px;
+    height: 80px;
+    border: 2px solid black;
+    box-shadow: 0 0 8px black;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+.body{
+    background-color: rgb(118, 205, 239) ; 
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 90%;
+}
+.navbar1{
+    background-color: rgb(118, 205, 239) !important;
+    width: 100%;
+    font-size: 20px;
+} 
+.Main-section {
+    padding-top: 100px;
+    margin-top: 30px;
+}
+.about{
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    border: 2px solid gray;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+    margin-top: 30px;
+}
+.about ul li{
+    list-style: none;
+}
+.events{
+    border: 2px solid gray;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.button{
+    text-align: center;
+    border: 2px solid gray;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 40px;
+}
+.Technical{
+
+    border: 2px solid gray;
+    border-radius: 15px;
+    padding: 20px;margin: 10px;
+}
+.tec-head{
+    padding: 10px;
+    margin: 10px;
+}
+.card1{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 3px;
+    box-shadow: 0 0 10px black;
+}
+.group{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2px;
+    
+}
+#register1{
+    width: 15%;
+}
+form {
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button[type="submit"],
+button[type="reset"] {
+    padding: 10px 20px;
+    margin: 10px 5px 0 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 15px;
+}
+
+button[type="reset"] {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 15px;
+}
+.footer{
+    border: 2px solid gray;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(118, 205, 239);
+    position: sticky;
+
+}
