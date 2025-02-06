@@ -1,0 +1,33 @@
+.grid {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.cls {
+    border: 2px solid black;
+    margin: 14px;
+    padding: 8px;
+}
+
+.res {
+    border: 3px solid green;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: aqua;
+}
+.ros{
+    border: 3px solid gray;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: lightpink;
+}
+.ross{
+    border: 3px solid blue;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: gold;
+}
