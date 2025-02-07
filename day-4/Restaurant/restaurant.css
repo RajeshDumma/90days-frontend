@@ -1,0 +1,129 @@
+.img {
+    width: 100%;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+}
+
+.img-content {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 30%;
+    padding: 10px 5px;
+    font-size: 25px;
+    color: white;
+        }
+
+.nav {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-link {
+    color: wheat;
+    font-weight: 800px;
+}
+
+.head-content {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.head {
+    font-size: 65px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.para {
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.container1 {
+    background-color: white;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+input[type="search"] {
+    width: 100%;
+    font-size: 20px;
+}
+.card-details{
+    padding:10px ;
+}
+.group{
+    display: flex;
+    justify-content: space-between;
+}
+.rating{
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;  
+}
+.meal{
+    width: 100%;
+    height: 300px;
+}
+.promo-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000; 
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.promo-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.promo-content h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.promo-content h1 {
+    font-size: 48px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.promo-content p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.promo-content button {
+    background-color: #ff4757; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.promo-content button:hover {
+    background-color: #e84141; 
+}
+
+.promo-image {
+    flex: 2;
+}
+
+.promo-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
