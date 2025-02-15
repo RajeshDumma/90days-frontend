@@ -1,0 +1,27 @@
+.navbar-main{
+    box-sizing: border-box;
+    height: 100px;
+    background-color: white;
+}
+
+.header-logo{
+ width: 150px;
+ height: 60px;
+ background-color: white;
+ margin-left: 5%;
+ margin-right: 5%;
+}
+.nav-content{
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+}
+.right-nav{
+    display: flex;
+    gap: 50px;
+    margin-left: 20%;
+}
+.icons{
+    font-size: 35px;
+    border:  none;
+}

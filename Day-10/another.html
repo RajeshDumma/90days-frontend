@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown UI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        details {
+            width: 400px;
+            background: white;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        summary {
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            list-style: none;
+        }
+        details[open] summary {
+            background-color: #f1f1f1;
+        }
+        summary::after {
+            content: "▼";
+            transition: transform 0.3s ease;
+        }
+        details[open] summary::after {
+            transform: rotate(180deg);
+        }
+        .content {
+            padding: 15px;
+            border-top: 1px solid #ddd;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <details>
+        <summary>Popular Cuisines Near Me</summary>
+        <div class="content">
+            Italian, Mexican, Chinese, Indian, Thai
+        </div>
+    </details>
+
+    <details>
+        <summary>Popular Restaurant Types Near Me</summary>
+        <div class="content">
+            Cafés, Fast Food, Fine Dining, Buffets, Casual Dining
+        </div>
+    </details>
+
+</body>
+</html>
