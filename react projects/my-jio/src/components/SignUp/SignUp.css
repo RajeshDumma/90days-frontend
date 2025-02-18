@@ -1,0 +1,20 @@
+
+.container1 {
+    max-width: 1000px;
+    margin-left: 30%;
+}
+
+.right {
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+.right input {
+    margin-bottom: 10px;
+}
+.btn1 {
+    background-color: #1877f2;
+    border: none;
+}
