@@ -1,17 +1,13 @@
 // 1. create array using array literal
 
 const fruits = ["Banana","Apple","Papaya","Grapes","WaterMelon"];
-
 // Another way to create array, empty array , then add elemnts
-
 const fruits1 =[];
 fruits1[0] = "orange";
 fruits1[1] = "Pinapile";
 fruits1[2] = "Mango";
 fruits1[3] = "Kivi"
-
-// My task 
-
+ 
 // creating an array of 5 colors
 
 const color = ["green","pink","blue","Red"];
@@ -35,12 +31,11 @@ numbers1[4] = 400;
 console.log(fruits);
 console.log(fruits1);
 
-console.log("\n")
+
 
 console.log(color);
 console.log(color1);
 
-console.log("\n")
 
 console.log(numbers);
 console.log(numbers1); 

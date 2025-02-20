@@ -1,15 +1,11 @@
 // task - 1
-
 // var keyword used to declare a variable has a functional scope and global scoped behovier.
-
 // Example 
-
 
 var a = 80;
 console.log(a); // output will be 80
 
 var a = 60;  // updated the a value
-
 console.log(a);
 console.log(typeof (a)); // number type
 
@@ -26,7 +22,7 @@ function fun() {
    var mul = y * y;
    console.log(mul);
 }
-//console.log(y); // here y we didn't declared (error)
+//console.log(y); // here y we didn't declared (error) {reference error}
 fun();
 
 

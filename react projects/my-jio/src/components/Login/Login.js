@@ -12,12 +12,12 @@ function Login() {
 
     function userName(resevedUserValue){ // automatically called event
         
-   //     console.log("Username:",resevedUserValue.target.value);
+        console.log("Username:",resevedUserValue.target.value);
        captureName(resevedUserValue.target.value);
     }
 
     function userpassword(resevedUserPassword){
-     //   console.log("Password:",resevedUserPassword.target.value);
+       console.log("Password:",resevedUserPassword.target.value);
         capturePassword(resevedUserPassword.target.value);
     }
     function clickButton(){
