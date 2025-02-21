@@ -16,7 +16,6 @@ function findSum(arr) {
     return sum; // Returning final sum
 }
 console.log(findSum(arr)); // Output: 39
-
 // Finding the maximum value using reduce method
 const maxValue = arr.reduce(function (max, curr) {
     if (curr > max) { // Compare current value with max
@@ -32,8 +31,7 @@ function findMax(arr) {
     for (let i = 1; i < arr.length; i++) { // Start loop from index 1
         if (findMax < arr[i]) { // Compare current element with max
             findMax = arr[i]; // Update max if current element is greater
-        }
-    }
+        } }
     return findMax; // Return the final max value
 }
 console.log(findMax(arr)); // Output: 8

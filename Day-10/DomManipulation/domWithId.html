@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model</title>
+</head>
+<body>
+    <div id="first">
+        <h1 id="dom-title">What is DOM ?</h1>
+        <p><b>DOM : </b> stands for <b>Document Object Model.</b></p>
+        <p class="special">A <b>Document Object</b> is created when an <b>HTML</b> document is loaded in the <b>browser</b></p>
+        <p class="special">The <b>root element</b> of an <b>HTML</b> document is called a <b>document object</b>.</p>
+    </div>
+</body>
+<script>
+    // Selecting the div with ID "first" and changing its background color
+    const firstDiv = document.getElementById('first');
+    firstDiv.style.background = 'red';
+    firstDiv.style.padding = '10px';
+
+    // Logging inner text and inner HTML
+    console.log(firstDiv.innerText);
+    console.log(firstDiv.innerHTML);   
+
+    // Selecting the H1 element by its unique ID and changing its background color
+    const domTitle = document.getElementById('dom-title');
+    domTitle.style.background = 'blue';
+
+    // Selecting all paragraphs using getElementsByTagName and applying styles
+    const tag = document.getElementsByTagName('p');
+    for (let i = 0; i < tag.length; i++) {
+        tag[i].style.background = 'green';
+    }
+
+    // Selecting all elements with class "special" and applying styles
+    const specialElements = document.getElementsByClassName("special");
+    for (let i = 0; i < specialElements.length; i++) {
+        specialElements[i].style.color = 'white';
+    }
+
+    // Selecting the first element with class "special" using querySelector
+    let query = document.querySelector(".special");
+    query.style.border = '2px solid black';
+
+
+
+</script>
+</html>

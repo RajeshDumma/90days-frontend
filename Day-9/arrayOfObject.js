@@ -17,10 +17,8 @@ const products = [
    // Object 5: 
    { name: "Wireless Headphones", price: 4500, category: "Electronics", stock: 18 }
 ];
-
 // Log the entire array of products to the console
 console.log(products);
-
 // Log the product at index 3 (fourth item in the array, which is "Backpack")
 console.log("Array [3]", products[3]);
 

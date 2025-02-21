@@ -52,6 +52,7 @@ const teamMembers = [
     }
 ];
 console.table(teamMembers);
+
 const teamList = document.getElementById("team");
 
 if (teamMembers.length === 0) {
