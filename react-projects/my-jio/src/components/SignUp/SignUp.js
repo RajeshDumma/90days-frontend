@@ -42,9 +42,7 @@ function SignUp() {
                                 <a href="#" className="d-block my-2">Forgot password?</a>
                                 <hr />
                                 <h4>{userName}</h4>
-                                <h4>{password}</h4>
-
-                                
+                                <h4>{password}</h4>         
                             </form>
                         </div>
                     </div>

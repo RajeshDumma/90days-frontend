@@ -1,0 +1,135 @@
+  /* Logo Styling */
+  .img-logo {
+    height: 50px;
+    /* Adjusted size */
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #f8f9fa;
+    /* Light background */
+    padding: 10px 20px;
+    position: sticky;
+
+}
+
+#navbarNav {
+    margin-left: 10%;
+    padding: 10px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link a {
+    gap: 30px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    gap: 20px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 15px;
+    border: none;
+}
+
+.btn i {
+    margin-left: 5px;
+}
+
+.right span i {
+    font-size: 24px;
+    margin-left: 15px;
+    color: #555;
+}
+
+.scroll-container {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 10px;
+    background-color: rgb(227, 227, 227);
+}
+
+.scroll-container img {
+    padding: 10px;
+    border-radius: 20px;
+    flex-shrink: 0;
+    animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    90% {
+        transform: translateX(-100%);
+    }
+
+    150% {
+        transform: translateX(-100%);
+    }
+}
+
+.secondNavbar {
+    display: flex;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+    height: 80px;
+    padding: 10px;
+    box-shadow: 3px 3px rgb(246, 241, 241);
+}
+
+.button {
+    background-color: rgb(100, 168, 227);
+    padding-top: 10px;
+    border: 2px solid whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    width: auto;
+}
+
+.btn1 {
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.imddle {
+    margin-left: 10%;
+    margin-top: 10px;
+    border: none;
+    width: 50%;
+}
+
+.search input {
+    border: none;
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+}
+
+.input-group {
+    width: 200px;
+    height: 60px;
+    margin-left: 10px;
+}
+
+.container {
+    height: 200px;
+
+}
+
+.col {
+    border: 1px solid black;
+}

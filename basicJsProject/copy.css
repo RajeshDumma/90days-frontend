@@ -1,0 +1,296 @@
+*{
+    font-family: arial;
+  }
+  
+  
+  
+  #d1,#d2{
+    background-color: rgb(43, 49, 72);
+  }
+  #d1{
+    height:120px;
+  }
+  #d2{
+    height:550px;
+  }
+  .img1{
+    width:100%;
+    height:100%;
+  }
+  .a1,.a2{
+    margin:0px;
+    color:white;
+  }
+  .ma{
+    padding-top: 10px;
+  }
+  .c1{
+    padding:0px;
+    margin:0px;
+    width:222px;
+    height:333px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  .image-size{
+    border-radius: 15px;
+    height:100%;
+  }
+  .cinema-name{
+    color:white;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .cinema-lang{
+    color:white;
+  }
+  .total-card{
+    cursor: pointer;
+  }
+  .bestImage{
+    height:222.4px;
+    width:222.4px;
+  }
+  #best{
+    margin-top:50px;
+    margin-bottom:50px;
+  }
+  #best-title{
+    font-weight: bold;
+  }
+  .img-container{
+   margin-top:20px;
+  }
+  .img-best{
+    width:100%;
+  }
+  .i-image{
+    width:222.4px;
+    height:378.8px;
+    border-radius: 7px;
+  }
+  .movie-title{
+    font-weight: bold;
+    margin-top:5px;
+    font-size:20px;
+  }
+  .i-div{
+    border-radius: 15px;
+  }
+  .recommend{
+    margin-top:10px;
+  }
+  #rcmd-movies{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom:7px;
+  }
+  .book-button{
+    background-color: rgb(20, 135, 230);
+    color: white;
+    border:none;
+    border-radius: 3px;
+    padding:2px 20px;
+  }
+  .scroll-container {
+    display: flex;
+    overflow: hidden; 
+    white-space: nowrap;
+    padding: 10px;
+    background-color: rgb(227, 227, 227);
+  }
+  
+  .scroll-container img {
+    padding: 10px;
+    border-radius: 20px;
+    flex-shrink: 0; 
+    animation: scroll 10s linear infinite; 
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0); 
+    }
+    100% {
+      transform: translateX(-150%); 
+    }
+   
+  
+  .total-head-container{
+    background-color: rgb(240, 234, 234);
+  }
+  .my-container{
+    display: flex;
+    padding:6px 10px;
+  }
+  
+  .second-half{
+    justify-content: flex-end;
+  }
+  .first-half{
+    flex:1;
+  }
+  .header-links{
+    text-decoration: none;
+    padding:10px 5px;
+    color: black;
+  }
+  .my-first-header{
+    display:flex;
+    align-items: center;
+    padding:15px 0px;
+  }
+  .img-head{
+    width:115px;
+    height:53px;
+  }
+  .first-head{
+    margin-right:30px;
+  }
+  .middle-head{
+    flex-grow: 1;
+  }
+  .input-search,.search-button{
+    padding:5px 5px;
+    border:1px solid rgb(201, 201, 201);
+    border-width: 1px;
+  }
+  .last-head{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  .three{
+    width:22px;
+    height:40px;
+  }
+  .sign-in{
+    border:none;
+    background-color: rgb(215, 68, 68);
+    color: white;
+    padding:4px 6px;
+    border-radius: 4px;
+  }
+  .trending{
+    padding-top:20px;
+    background-color: rgb(235, 231, 231);
+  }
+  .trend-title{
+    font-size:25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  .search-box{
+    background-color: white;
+    display: inline-block;
+    padding:10px 40px 10px 15px;
+    margin-right:20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  .name-search{
+    color:rgb(201, 54, 54);
+    font-weight: bold; 
+  }
+  .footer-top{
+    background-color: rgb(49, 48, 53);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+  }
+  .exp-ask{
+    display: flex;
+    align-items: center;
+    padding-top:20px;
+    padding-bottom: 20px;
+  }
+  .list-show{
+    font-weight: bold;
+    margin-left:15px;
+    margin-right: 15px;
+  }
+  .bookshow{
+    padding:5px 10px;
+    background-color: rgb(255, 78, 78);
+    text-decoration: none;
+    color: white;
+    justify-content: flex-end;
+  }
+  .ask-exp{
+    flex-grow: 1;
+  }
+  .subscribe-news{
+    background-color: rgb(64, 64, 67);
+    padding-top:15px;
+    padding-bottom: 15px;
+  }
+  .image-customer{
+    width:50px;
+    height:50px;
+    border-radius: 30px;
+  }
+  .c-info{
+    font-size: 13px;
+    padding-top:10px;
+  }
+  .customer{
+    display: flex;
+    flex-direction: column;
+    margin-left:30px;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    cursor: pointer;
+  }
+  .contact-c{
+    display: flex;
+    justify-content:space-around;
+  }
+  .footer-bottom,.line-show,.logos,.finish{
+    background-color: rgb(51, 51, 56);
+  }
+  .nenu{
+    padding-top: 25px;
+  }
+  .luck{
+    font-size: 12px;
+    line-height: 1.1;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+    margin: 0px 0px 20px;
+    color: rgb(165, 165, 165);
+  }
+  .okay{
+    font-size: 11px;
+      color: rgb(127, 127, 127);
+  }
+  .line-show{
+    display: flex;
+    align-items: center;
+    padding:30px 20px;
+  }
+  .line{
+    flex-grow: 1;
+    color:white;
+  }
+  .line-image{
+    padding-left:15px;
+    padding-right:15px;
+  }
+  .logos{
+    display:flex;
+    padding:0px 20px;
+    justify-content: center;
+  }
+  .logo-s{
+    width:37px;
+    height:37px;
+    margin: 10px 10px;
+    border-radius: 30px;
+  }
+  .finish{
+    padding: 30px;
+      font-size: 11px;
+      color: rgb(102, 102, 102);
+      text-align: center;
+  }

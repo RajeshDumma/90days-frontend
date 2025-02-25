@@ -30,9 +30,7 @@ function Header() {
               <li className="nav-item">
                 <Link to="JioFiber" className="nav-link">JioFiber</Link>
               </li>
-              <li className="nav-item">
-                <Link to="Login" className="nav-link">Login</Link>
-              </li>
+              
               <li className="nav-item">
                 <Link to="SignUp" className="nav-link">SignUp</Link>
               </li>
