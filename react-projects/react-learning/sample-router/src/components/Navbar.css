@@ -1,0 +1,20 @@
+ul {
+    display: flex; /* Flex applied to UL instead of LI */
+    justify-content: end;
+    gap: 40px;
+    font-size: 28px;
+    margin-right: 30px;
+  }
+  
+  li {
+    display: inline; /* This is not needed if you use flex on UL */
+    list-style: none; /* Remove bullet points */
+    cursor: pointer; /* Make items clickable */
+  }
+  li:hover {
+    color: #007bff;
+    text-decoration: underline;
+    transition: 0.3s ease-in-out;
+  }
+  
+  
