@@ -31,7 +31,8 @@ const books = [
     }
 ];
 
-const booksCard = document.getElementById("books");
+const booksCard = document.getElementById("team");
+
 
 if (books.length === 0) {
     booksCard.innerHTML = '<p class="text-center mt-5">No books available</p>';
@@ -40,7 +41,7 @@ if (books.length === 0) {
         return `
         <div class="col-md-4 col-sm-6 mt-4">
             <div class="card cards" style="width: 18rem;">
-                <img src="${book.image}" class="card-img-top" alt="${book.title}">
+                <img src="${book.image}" class="card-img-top" alt="${book.title}" >
                 <div class="card-body">
                     <h5 class="card-title">${book.title}</h5>
                     <p class="card-text">${book.author}, ${book.genre}</p>

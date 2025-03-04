@@ -10,7 +10,7 @@ import Practice from './components/Practice';
 const App = () => {
   return (
     <>
-     {/*  <BrowserRouter>
+     <BrowserRouter>
         <Navbar />
 
         <div>
@@ -20,9 +20,9 @@ const App = () => {
             <Route path="/contact" element={<h1>Contact Page</h1>} />
           </Routes>
         </div>
-      </BrowserRouter> */}
+      </BrowserRouter>
 
-   <Practice/>
+   
     </>
   );
 }
