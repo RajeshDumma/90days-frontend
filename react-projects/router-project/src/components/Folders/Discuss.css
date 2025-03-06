@@ -1,0 +1,23 @@
+.sub-navbar {
+    display: flex; /* Flexbox for gap */
+    gap: 20px;    
+    background-color: lightgray; 
+    padding: 10px;
+  }
+  
+  .sub-navbar a {
+    padding: 50px; /* Padding inside anchor tags */
+    color: white;   /* White text color */
+    text-decoration: none; 
+    /* Remove underline */
+    box-sizing: border-box;
+    border: 1px solid black;
+  }
+  
+  .active-sub-link {
+    background-color: #849ba6;
+    color: red; /* Active Link Color */
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  

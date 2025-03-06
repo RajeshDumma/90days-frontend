@@ -2,6 +2,10 @@ import React from 'react'
 
 export const Home = () => {
   return (
-    <div>Home</div>
+   <>
+  <center>
+  <h1>Home page</h1>
+  </center>
+   </>
   )
 }
