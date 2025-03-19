@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+.hero {
+    background: #007bff;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+.section {
+    padding: 50px 0;
+}
+.card {
+    margin: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+a {
+    text-decoration: none;
+    color: #007bff;
+}

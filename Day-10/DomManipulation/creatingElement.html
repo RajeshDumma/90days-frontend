@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,37 +7,41 @@
 </head>
 <body>
     <div id="parent">
-        <!-- Content will be added here dynamically -->
+        Content will be added here dynamically
     </div>
 </body>
 <script>
     // Creating an h1 element dynamically
     let n = document.createElement('h1'); 
     n.innerText = 'What is HTML ?'; // Adding text to h1
-    console.log(n);
+   // console.log(n);
     n.style.background='blue'
     n.style.color='white'
     n.style.border='2px solid black'
      n.style.padding = '10px'
+     console.log(n.innerText);
 
     // Selecting the parent div
     const parent = document.getElementById("parent");
     
     // Appending the h1 element to the parent div
     parent.appendChild(n);
-    console.log(parent);
+ //   console.log(parent);
     parent.style.background = 'red';
     parent.style.padding = '10px'
 
 // Creating an p element dynamically
     let create = document.createElement("p");
     create.innerText = 'HyperText Markup Language (HTML) is a set of codes that define how web pages are structured and displayed.'
- parent.appendChild(create);
+      parent.appendChild(create);
      create.style.background='green'
      create.style.color='white'
     create.style.border='2px solid black'
      create.style.padding = '10px'
 
-     console.log(create.innerText);    
+   //  console.log(create.innerText);    */
 </script>
-</html>
+</html>   
+
+
+ 

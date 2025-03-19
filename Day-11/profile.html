@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajesh Dumma | Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .hero { background: #f8f9fa; padding: 50px 0; text-align: center; }
+        .section { padding: 50px 0; }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <h1>Rajesh Dumma</h1>
+        <p>Software Engineer | Web Developer</p>
+        <p>Email: <a href="mailto:rajeshdumma2004@gmail.com">rajeshdumma2004@gmail.com</a></p>
+        <p>
+            <a href="https://www.linkedin.com/in/rajeshdumma" class="btn btn-primary">LinkedIn</a>
+            <a href="https://github.com/RajeshDumma" class="btn btn-dark">GitHub</a>
+        </p>
+    </header>
+
+    <div class="container">
+        <section class="section" id="skills">
+            <h2>Technical Skills</h2>
+            <ul id="skills-list" class="list-group"></ul>
+        </section>
+
+        <section class="section" id="projects">
+            <h2>Projects</h2>
+            <div id="projects-list" class="row"></div>
+        </section>
+    </div>
+
+    <script>
+        const skills = ["C++", "Java", "Python (Basic)", "Data Structures", "SQL", "HTML5", "CSS3", "Bootstrap", "JavaScript", "React.js", "Agile Methodology", "Git"];
+        const projects = [
+            { name: "Contactless Corona Sample Collector", description: "Raspberry Pi-based system with IoT & Python automation.", link: "#" },
+            { name: "Sign Language to Speech Converter", description: "Real-time translation using CNN & YOLO v5.", link: "#" },
+            { name: "Organic Ecommerce Website", description: "Fully responsive website with Bootstrap 5.", link: "http://rajeshdumma.github.io/Organic-ecommerce/" }
+        ];
+
+        $(document).ready(() => {
+            skills.forEach(skill => {
+                $("#skills-list").append(`<li class='list-group-item'>${skill}</li>`);
+            });
+
+            projects.forEach(project => {
+                $("#projects-list").append(
+                    `<div class='col-md-4'><div class='card mb-3'>
+                        <div class='card-body'>
+                            <h5 class='card-title'>${project.name}</h5>
+                            <p class='card-text'>${project.description}</p>
+                            <a href='${project.link}' class='btn btn-primary' target='_blank'>View Project</a>
+                        </div>
+                    </div></div>`
+                );
+            });
+        });
+    </script>
+</body>
+</html>

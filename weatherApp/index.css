@@ -59,7 +59,7 @@ body {
 .leftChile {
     width: 85%;
     height: 40vh;
-    background: rgba(212, 212, 212, 0.8);
+    background: rgba(212, 212, 212,0.2);
     margin: auto;
     border-radius: 10px;
     backdrop-filter: blur(15px);
@@ -95,7 +95,7 @@ body {
 }
 
 .extarMetric {
-    background: rgba(212, 212, 212, 0.8);
+    background: rgba(212, 212, 212,0.2);
     backdrop-filter: blur(15px);
     padding: 5% 2%;
     width: fit-content;
@@ -104,7 +104,7 @@ body {
 }
 
 .rowTwoDiv {
-    background: rgba(212, 212, 212, 0.8);
+    background: rgba(212, 212, 212,0.2);
     backdrop-filter: blur(15px);
     width: 45%;
     height: 85%;
@@ -113,7 +113,7 @@ body {
 }
 
 .todayTemp {
-    background: rgba(212, 212, 212, 0.8);
+    background: rgba(212, 212, 212,0.2);
     backdrop-filter: blur(15px);
     width: fit-content;
     padding: 15px;
@@ -180,7 +180,7 @@ body {
     }
 
     .rowTwoDiv {
-        background: rgba(212, 212, 212, 0.8);
+        background: rgba(212, 212, 212,0.2);
         backdrop-filter: blur(15px);
         width: 85%;
         height: 85%;
@@ -190,6 +190,7 @@ body {
     .rowThree {
         width: 85%;  
         margin: auto;  
+      
     }
 
     .todayTempParentDiv {
@@ -197,7 +198,6 @@ body {
         justify-content: center;  
         gap: 10px;
         width: 100% ;
-
-   
+        margin-top: 40px;
 }
 }
